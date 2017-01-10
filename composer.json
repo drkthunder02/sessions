@@ -1,0 +1,13 @@
+{
+    "name": "drkthunder02/sessions",
+    "description": "Sessions in MySQL DB",
+    "authors": [
+        {
+            "name": "drkthunder02",
+            "email": "mancuso.christopher@gmail.com"
+        }
+    ],
+    "require": {
+        "simplon/mysql": "dev-master"
+    }
+}
