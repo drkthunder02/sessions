@@ -1,13 +1,22 @@
 {
     "name": "drkthunder02/sessions",
+    "type": "library",
     "description": "Sessions in MySQL DB",
+    "keywords": ["sessions, mysql, database"],
+    "license": "PHP",
     "authors": [
         {
             "name": "drkthunder02",
             "email": "mancuso.christopher@gmail.com"
         }
     ],
-    "require": {
+    "autoload": {
+        "files":[
+            "functions/registry.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
         "simplon/mysql": "dev-master"
     }
 }
